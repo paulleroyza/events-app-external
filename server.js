@@ -2,6 +2,7 @@
 
 console.log(`process.env.SERVER = ${process.env.SERVER}`);
 // get the environment variable, but default to localhost:8082 if its not set
+//yeah right
 const SERVER = process.env.SERVER ? process.env.SERVER : "http://localhost:8082";
 
 // express is a nodejs web server
